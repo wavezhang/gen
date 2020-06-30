@@ -13,8 +13,8 @@
 # limitations under the License.
 
 FROM maven:3.5-jdk-8-slim
-ARG OPENAPI_GENERATOR_COMMIT
-ARG GENERATION_XML_FILE
+ARG OPENAPI_GENERATOR_COMMIT=v4.3.1
+ARG GENERATION_XML_FILE=java
 ARG OPENAPI_GENERATOR_USER_ORG=OpenAPITools
 
 # Install preprocessing script requirements
